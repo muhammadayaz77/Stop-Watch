@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #1C2630;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    width: 18%;
+    text-align: center;
+}
+.result{
+    font-size:30px;
+    background-color: white;
+    padding: 13px;
+    margin-bottom: 10px;
+    border-radius: 2px;
+}
+#start,#stop,#reset{
+    border: unset;
+    font-weight: 600;
+    padding: 5px;
+    width: 31%;
+    border-radius: 2px;
+}
